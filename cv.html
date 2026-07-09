@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexora | My CV</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#edf2f7;
+    color:#333;
+}
+
+/* Header */
+
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    font-size:40px;
+    letter-spacing:2px;
+}
+
+header p{
+    margin-top:8px;
+}
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* Main */
+
+main{
+
+    width:85%;
+    margin:40px auto;
+
+    background:white;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0px 0px 20px rgba(0,0,0,.15);
+
+}
+
+/* Profile */
+
+.profile{
+
+    background:#1e3a8a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.profile img{
+
+    width:170px;
+
+    height:170px;
+
+    border-radius:50%;
+
+    border:5px solid white;
+
+}
+
+.profile h2{
+
+    margin-top:20px;
+
+    font-size:32px;
+
+}
+
+.profile h4{
+
+    margin-top:10px;
+
+    font-weight:normal;
+
+}
+
+.profile p{
+
+    margin-top:15px;
+
+    line-height:1.8;
+
+}
+
+/* Section */
+
+section{
+
+    padding:35px;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+section h2{
+
+    color:#2563eb;
+
+    margin-bottom:20px;
+
+    border-left:6px solid #2563eb;
+
+    padding-left:12px;
+
+}
+
+/* Lists */
+
+ul{
+
+    padding-left:20px;
+
+}
+
+li{
+
+    margin:10px 0;
+
+}
+
+/* Skills */
+
+.skills{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    gap:12px;
+
+}
+
+.skill{
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:10px 18px;
+
+    border-radius:25px;
+
+    font-size:15px;
+
+}
+
+/* Cards */
+
+.card{
+
+    background:#f8fafc;
+
+    border-left:5px solid #2563eb;
+
+    padding:20px;
+
+    margin-bottom:20px;
+
+    border-radius:8px;
+
+}
+
+/* Contact */
+
+.contact p{
+
+    margin:12px 0;
+
+}
+
+/* Footer */
+
+footer{
+
+    background:#0f172a;
+
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+
+}
+
+footer a{
+
+    color:white;
+
+    text-decoration:none;
+
+    margin:0 12px;
+
+}
+
+footer a:hover{
+
+    color:#38bdf8;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+main{
+
+width:95%;
+
+}
+
+.profile img{
+
+width:130px;
+
+height:130px;
+
+}
+
+header h1{
+
+font-size:30px;
+
+}
+
+nav a{
+
+display:block;
+
+margin:10px 0;
+
+}
+
+.skills{
+
+justify-content:center;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>NEXORA</h1>
+
+    <p><i>Explore the Future of Tech</i></p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="cv.html">My CV</a>
+    </nav>
+
+</header>
+
+<main>
+
+    <!-- Profile -->
+
+    <div class="profile">
+
+        <img src="./images/profilePic.png" alt="Profile">
+
+        <h2>Muhammad Arham</h2>
+
+        <h4>Junior Web Developer</h4>
+
+        <p>
+            Passionate Web Developer with practical experience in
+            HTML, CSS, JavaScript, PHP, MySQL and GitHub.
+            Currently learning Laravel to become a Full Stack Developer.
+        </p>
+
+    </div>
+
+    <!-- Contact -->
+
+    <section class="contact">
+
+        <h2>Contact Information</h2>
+
+        <p><strong>Phone:</strong> +92 336 5487393</p>
+
+        <p><strong>Gmail:</strong> arhamrajputrr@gmail.com</p>
+
+        <p><strong>Location:</strong> Karachi, Pakistan</p>
+
+        <p><strong>GitHub:</strong> github.com/arhamrajputrr-commits</p>
+
+    </section>
+
+    <!-- About -->
+
+    <section>
+
+        <h2>Professional Summary</h2>
+
+        <p>
+
+            I am a passionate Junior Web Developer who enjoys
+            creating modern and user-friendly websites.
+
+            I have completed a Web Development Program and
+            continuously improve my skills by learning new
+            technologies like Java and Laravel.
+
+            My goal is to become a professional Full Stack
+            Web Developer.
+
+        </p>
+
+    </section>
+
+    <!-- Education -->
+
+    <section>
+
+        <h2>Education</h2>
+
+        <div class="card">
+
+            <h3>Web Development Program</h3>
+
+            <p>The Bridge School</p>
+
+            <p>Completed - 2024</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Current Studies</h3>
+
+            <p>Advanced Web Development Course</p>
+
+            <p>HTML • CSS • JavaScript • PHP • Laravel</p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Matriculation</h3>
+
+            <p>Completed</p>
+
+        </div>
+
+    </section>
+
+    <!-- Skills -->
+
+    <section>
+
+        <h2>Technical Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">HTML5</div>
+
+            <div class="skill">CSS3</div>
+
+            <div class="skill">JavaScript</div>
+
+            <div class="skill">Tailwind CSS</div>
+
+            <div class="skill">PHP</div>
+
+            <div class="skill">MySQL</div>
+
+            <div class="skill">Git</div>
+
+            <div class="skill">GitHub</div>
+
+            <div class="skill">Java</div>
+
+            <div class="skill">Laravel</div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section>
+
+        <h2>Projects</h2>
+
+        <div class="card">
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+
+                Built a complete portfolio website using HTML,
+                CSS, JavaScript, PHP and MySQL.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Nexora Electronics Website</h3>
+
+            <p>
+
+                Developed an electronics website as an HTML
+                project with multiple pages including Home,
+                Products, About and CV.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <h3>Java Practice Projects</h3>
+
+            <p>
+
+                Built console-based Java applications to
+                improve programming and OOP concepts.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Soft Skills -->
+
+    <section>
+
+        <h2>Soft Skills</h2>
+
+        <ul>
+
+            <li>Problem Solving</li>
+
+            <li>Communication</li>
+
+            <li>Team Collaboration</li>
+
+            <li>Time Management</li>
+
+            <li>Critical Thinking</li>
+
+            <li>Adaptability</li>
+
+        </ul>
+
+    </section>
+
+    <!-- Languages -->
+
+    <section>
+
+        <h2>Languages</h2>
+
+        <ul>
+
+            <li>Urdu</li>
+
+            <li>English</li>
+
+        </ul>
+
+    </section>
+
+    <!-- Goal -->
+
+    <section>
+
+        <h2>Career Objective</h2>
+
+        <p>
+
+            My objective is to become a successful Full Stack
+            Web Developer by mastering modern web technologies
+            and contributing to innovative software projects.
+
+        </p>
+
+    </section>
+
+</main>
+
+<footer>
+
+    <h3>NEXORA</h3>
+
+    <p>Explore the Future of Tech</p>
+
+    <br>
+
+    <a href="index.html">Home</a>
+
+    <a href="products.html">Products</a>
+
+    <a href="about.html">About</a>
+
+    <a href="cv.html">My CV</a>
+
+    <br><br>
+
+    <p>&copy; 2026 Nexora. All Rights Reserved.</p>
+
+</footer>
+
+</body>
+
+</html>
